@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    .nav-nav { display: none; }
+    .navbar { padding: 10px 30px; }
+    .navbar .letters  { font-size: 25px; }
+    .navbar .letters::after {
+        font-size: 40px;
+        left: -10px;
+        top: -10px;
+    }
+}
